@@ -1,1 +1,1 @@
-hl.exe -game ts
+xash3d.exe -game ts -console

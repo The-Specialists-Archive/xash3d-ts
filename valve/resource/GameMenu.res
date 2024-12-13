@@ -6,20 +6,44 @@
 		"command" "ResumeGame"
 		"OnlyInGame" "1"
 	}
-	"5"
+	"2"
+	{
+		"label" "#GameUI_GameMenu_Disconnect"
+		"command" "Disconnect"
+		"OnlyInGame" "1"
+		"notsingle" "1"
+	}
+	"3"
+	{
+		"label" "#GameUI_GameMenu_LeaveGame"
+		"command" "Disconnect"
+		"OnlyInGame" "1"
+		"notmulti" "1"
+	}
+	"4"
 	{
 		"label" "#GameUI_GameMenu_PlayerList"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 		"notsingle" "1"
 	}
-	"7"
+	"5"
+	{
+		"label" ""
+		"command" ""
+		"OnlyInGame" "1"
+	}
+	"6"
 	{
 		"label" "#GameUI_GameMenu_NewGame"
 		"command" "OpenNewGameDialog"
 		"notmulti" "1"
-		"notsingle" "1"
-		"HelpText" "#GameUI_MainMenu_Hint_NewGame"
+	}
+	"7"
+	{
+		"label" "#GameUI_GameMenu_LoadGame"
+		"command" "OpenLoadGameDialog"
+		"notmulti" "1"
 	}
 	"8"
 	{
@@ -30,64 +54,50 @@
 	}
 	"9"
 	{
-		"label" "#GameUI_GameMenu_LoadGame"
-		"command" "OpenLoadGameDialog"
+		"label" ""
+		"command" ""
 		"notmulti" "1"
-		"HelpText" "#GameUI_MainMenu_Hint_LoadGame"
 	}
-	"14"
+	"10"
 	{
 		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 		"notsingle" "1"
-		"HelpText" "#GameUI_MainMenu_Hint_FindServer"
 	}
-	"15"
+	"11"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"notsingle" "1"
-		"HelpText" "#GameUI_MainMenu_Hint_CreateServer"
 	}
-//	"16"
+//	"12"
 //	{
 //		"name" "LoadDemo"
 //		"label" "#GameUI_GameMenu_PlayDemo"
 //		"command" "OpenLoadDemoDialog"
 //	}
-	"17"
+	"13"
+	{
+		"label" ""
+		"command" ""
+		"notsingle" "1"
+	}
+	"14"
 	{
 		"label" "#GameUI_GameMenu_ChangeGame"
 		"command" "OpenChangeGameDialog"
 		"notsteam" "1"
 		"notsingle" "1"
 		"notmulti" "1"
-		"HelpText" "#GameUI_MainMenu_Hint_ChangeGame"
 	}
-	"18"
+	"15"
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
-		"HelpText" "#GameUI_MainMenu_Hint_Configuration"
 	}
-	"19"
-	{
-		"label" "#GameUI_GameMenu_Disconnect"
-		"command" "Disconnect"
-		"OnlyInGame" "1"
-		"notsingle" "1"
-	}
-	"20"
-	{
-		"label" "#GameUI_GameMenu_LeaveGame"
-		"command" "Disconnect"
-		"OnlyInGame" "1"
-		"notmulti" "1"
-	}
-	"21"
+	"16"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
-		"HelpText" "#GameUI_MainMenu_Hint_QuitGame"
 	}
 }

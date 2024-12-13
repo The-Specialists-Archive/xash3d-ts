@@ -1,8 +1,6 @@
-frenzy
-contamination
-gasworks
-disposal
-subtransit
-pool_party
-crossfire
-rocket_frenzy
+undertow
+snark_pit
+boot_camp
+lambda_bunker
+datacore
+stalkyard
